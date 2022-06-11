@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abu fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/abu.css">
+<style>
+    body {
+        font-family: 'Comfortaa', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('bggym.jpg');
+        height: 5000px;
+    }
+
+    .left {
+        position: absolute;
+        left: 38px;
+        top: 20px;
+        display: inline-block;
+
+    }
+
+    .left img {
+        width: 150px;
+        padding: 3px auto;
+        filter: invert(100%);
+
+    }
+
+    .mid {
+        display: block;
+        width: 55%;
+        margin: 10px auto;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 38px;
+        top: 20px;
+        display: inline-block;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 17px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 9px 23px;
+    }
+
+    .navbar li a:hover,.navbar li a:active {
+        text-decoration: underline;
+        color: rgb(211, 211, 211);
+    }
+
+    .btn {
+        margin: 0px 5px;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+        padding-right: 3px 13px;
+        border: 2px solid #524a4a;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: black;
+        background-color: rgb(248, 248, 248);
+    }
+
+    .container {
+        
+        margin: 45px 27px;
+        padding: 23px 2px;
+        border: 1px solid white;
+        width: 33%;
+        border-radius: 15px;
+        font-size: 20px;
+
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 280px;
+        padding: 2px;
+        margin: 7px auto;
+        border: 2px solid black;
+        border-radius: 5px;
+        font-family: 'Comfortaa', cursive;
+    }
+    .container button:hover{
+        
+        background-color: rgb(72, 161, 109);
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="gym7.png" alt="">
+            <h5>Abu's Gym</h5>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" class="active">About us</a></li>
+                <li><a href="#" class="active">Fitness Calculator</a></li>
+                <li><a href="#" class="active">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us Now</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the Best Gym of Hyderabad</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="textname=" placeholder=" Name">
+            </div>
+            <div class="form-group">
+                <input type="textname=" placeholder=" age">
+            </div>
+            <div class="form-group">
+                <input type="textname=" placeholder=" gender">
+            </div>
+            <div class="form-group">
+                <input type="textname=" placeholder="locality">
+            </div>
+            <button class="btn">
+                Submit
+            </button>
+        </form>
+    </div>
+</body>
+
+</html>
